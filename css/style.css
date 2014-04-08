@@ -61,6 +61,15 @@ body {
 	color: #fff;
 }
 
-.col-md-8 h1, .col-md-8 h2, .cole, .riley, .zero, .col-md-4 h1, .col-md-4 h2 {
+.col-md-8 h1, .col-md-8 h2, .cole, .riley, .zero, .col-md-4 h1, .col-md-4 h2, h1 {
 	text-align: center;
+}
+
+h1 {
+	color:#fff;
+}
+
+table {
+	background-color: #2B5BE8;
+	color: #fff;
 }
