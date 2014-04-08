@@ -10,10 +10,12 @@
 .skate-carousel {
 	background-color: #000000;
 	width: 100%;
-	padding-top: 5%;
 }
 
-img {
-	width: 100%;
-	height: auto;
+.navbar {
+	background-color: #d9534f;
+}
+
+.btn-danger {
+	background-color: #000;
 }
