@@ -26,6 +26,7 @@ body {
 
 .dropdown-menu {
 	background-color: #000;
+	height: auto;
 }
 
 .navbar-brand {
@@ -74,15 +75,8 @@ table {
 	color: #fff;
 }
 
-footer {
-	margin: 0 auto;
-}
 
-footer li { 
-	display: inline;
-	margin: 5%;
-	text-align: center;
-}
+
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
