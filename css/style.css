@@ -10,6 +10,7 @@
 .skate-carousel {
 	background-color: #000000;
 	width: 100%;
+	padding-top: 3%;
 }
 
 .navbar {
@@ -17,5 +18,25 @@
 }
 
 .btn-danger {
+	background-color: #000;
+}
+
+.dropdown-menu {
+	background-color: #000;
+}
+
+.navbar-brand {
+	font-size: 1.875em;
+	color: #fff;
+}
+
+.dropdown-menu a {
+	color: #fff;
+}
+
+.navbar-brand:visited, .dropdown-menu a:visited {
+	color: #fff;
+}
+.dropdown {
 	background-color: #000;
 }
