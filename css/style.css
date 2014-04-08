@@ -14,7 +14,7 @@
 }
 
 .navbar {
-	background-color: #d9534f;
+	background-color: #E83D31;
 }
 
 .btn-danger {
@@ -37,6 +37,16 @@
 .navbar-brand:visited, .dropdown-menu a:visited {
 	color: #fff;
 }
+
 .dropdown {
 	background-color: #000;
+}
+
+.carousel-caption h1 {
+	font-size: 3.75em;
+}
+
+.jumbotron {
+	background-color: #E83D31;
+
 }
