@@ -28,16 +28,16 @@
   <body>
 
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
-        </div>
+      	<div class="container">
+        	<div class="navbar-header">
+	        	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+	          	</button>
+          		<a class="navbar-brand" href="#">D.Butcher</a>
+       		 </div>
         <div class="collapse navbar-collapse">
           	<ul class="nav navbar-nav">
             	<li class="active"><a href="#">Home</a></li>
@@ -53,10 +53,10 @@
 		    </ul>
         	<form class="navbar-form navbar-right" role="form">
 	            <div class="form-group">
-	              <input type="text" placeholder="username" class="form-control">
+	            	<input type="text" placeholder="username" class="form-control">
 	            </div>
 	            <div class="form-group">
-	              <input type="password" placeholder="password" class="form-control">
+	            	<input type="password" placeholder="password" class="form-control">
 	            </div>
 	            <button type="submit" class="btn btn-danger">Sign in</button>
         	</form>
@@ -64,10 +64,47 @@
       </div>
     </div>
 
-    <div class="container">
+    <div id="carousel-1" class="carousel slide" data-ride="carousel">
+    	<ol class="carousel-indicators">
+    		<li data-target="carousel-1" data-slide-to="0" class="active"></li>
+    		<li data-target="carousel-1" data-slide-to="1"></li>
+    		<li data-target="carousel-1" data-slide-to="2"></li>
+    	</ol>
+    	<div class="carousel-inner">
+    		<div class="item active">
+    			<img src="images/andrew.jpg" alt="First Slide">
+    			<div class="container">
+    				<div class="carousel-caption">
+    					<h1>Andrew Reynolds</h1>
+    					<p>Andrew Reynolds is the founder of Baker Skateboards</p>
+    				</div>
+    			</div>
+    		</div>    	
+	    	<div class="item">
+	        	<img src="images/lizard.jpg" alt="Second slide">
+	          	<div class="container">
+	            	<div class="carousel-caption">
+	              		<h1>Lizard King</h1>
+	              		<p>Lizard King skates for Deathwish Skateboards.</p>
+	            	</div>
+	          	</div>
+	        </div>
+	        <div class="item">
+	         	<img src="images/chaz.jpg" alt="Third slide">
+	        	<div class="container">
+	            	<div class="carousel-caption">
+	            		<h1>Chaz Ortiz</h1>
+	            		<p>Chaz Ortiz skates for Zoo York Skateboards.</p>
+	            	</div>
+	          	</div>
+	        </div>
+	    </div>
+        <a class="left carousel-control" href="#carousel-1" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      	<a class="right carousel-control" href="#carousel-1" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
 
 
-    </div><!-- /.container -->
+   
 
 
     <!-- Bootstrap core JavaScript
